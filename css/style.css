@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'supercell'; /*a name to be used later*/
+    src: url('../fonts/supercell.ttf'); /*URL to font*/
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+   	text-align: center;
+   	background: url('../img/background4.jpg') fixed;
+   	background-size:cover;
+}
+
+p {
+	margin-top:32px;
+	color: #CBCBCB;
+	font-size:17px;
+}
+
+.highlight {
+	font-family:"supercell";
+	color:white;
+	text-align:center;
+	font-size:30px;
+	margin: 0;
+	text-shadow: 0px 4px 5px black;
+}
+
+#header {
+	z-index:2;
+}
+
+.boxx {
+	background: #484340;
+	width:100%;
+	border:6px solid #3A3A3A;
+	border-radius:10px;
+	box-shadow: 0px 4px 5px black;
+	
+	margin-top:20px;
+}
+
+.boxxBody iframe {
+	width: 90%;
+}
+
+.boxx img {
+	width:90%;
+}
+
+.boxxHead{
+	margin-top: 15px;
+}
+
+.boxxBody {
+	padding:20px;
+}
+
+#mainBoxx{
+	background: #484340;
+	width:100%;
+	max-width:760px;
+	border:6px solid #3A3A3A;
+	border-radius:10px;
+	margin:0 auto;
+	padding:51px 36px;
+	margin-top:-20px;
+	box-shadow: 0px 4px 5px black;
+	z-index:1;
+}
+
+
+#subtitle p{
+	margin:0;
+}
+
+#subtitle {
+	margin-top:30px;
+}
+
+.fieldd {
+	margin-top:30px;
+	text-align: left;
+}
+
+.fieldd label{
+	margin-bottom:3px;
+	font-family: "supercell";
+	text-shadow: 0px 4px 5px black;
+	color: white;
+	font-size: 18px;
+}
+
+.notita{
+	margin-top:5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: white;
+	text-shadow: 0px 3px 3px black;
+}
+
+.destacado {
+	color: orange;
+}
+
+.ownInput {
+	height: 55px;
+	background-color: #2E2E2E;
+	border-radius:15px;
+	border:none;
+}
+
+.ownInput:focus {
+	background-color: #2E2E2E;
+	border:none;
+	color:white;
+}
+
+.ownInput::placeholder {
+	font-size: 19px;
+	color: #7A7B7B;
+	font-family: "supercell";
+}
+
+input[type="text"]{
+	font-size: 19px;
+	color: white;
+	font-family: "supercell";
+}
+
+
+.selectorss {
+	height:55px !important;
+	font-size:19px;
+	font-family: "supercell";
+	color: white;
+}
+
+.roundShadow {
+	box-shadow: 0px 4px 5px black;
+	border-radius:15px;
+}
+
+.spaces{
+	margin-left: 60px;
+}
+
+.iconExtraInput {
+	padding:0;
+}
+
+.serverOnline {
+	color: #9DD209;
+	font-family: "supercell";
+	font-size: 18px;
+	text-shadow: 0px 3px 4px black;
+}
+
+.buttonn {
+	border:none;
+	display: inline-block;
+	font-family: "supercell";
+	font-size: 20px;
+	color: white;
+	border-radius:20px;
+	width:205px;
+	height:60px;
+	text-shadow: 0px 2px 2px black;
+	margin-bottom:10px;
+	box-shadow: 0px 2px 5px black;
+	cursor:pointer;
+}
+
+.buttonnDisabled {
+	background:url(../img/buttonnDisabled.png) no-repeat;
+	background-size: 100%;
+}
+
+
+.continue {
+	background:url(../img/buttonnContinuar.png) no-repeat;
+	background-size: 100%;
+}
+
+
+.continue:hover {
+	background:url(../img/buttonnContinuarHover.png) no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.volver {
+	background:url(../img/buttonnVolver.png) no-repeat;
+	background-size: 100%;
+}
+
+
+.volver:hover {
+	background:url(../img/buttonnVolverHover.png) no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+
+.hiddenElement {
+	display: none;
+}
+
+#consola {
+	border-radius:15px;
+	width:100%;
+	border: 1px solid rgba(0,0,0,.4);
+}
+
+#consolaHeader {
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #dddcdd 20%, #cfcecf 50%, #c5c3c5 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#dddcdd 20%,#cfcecf 50%,#c5c3c5 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#dddcdd 20%,#cfcecf 50%,#c5c3c5 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	opacity:0.8;
+	height:50px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#consolaHeader p {
+	color:black;
+	text-align:center;
+	margin: 0;
+	line-height: 50px;
+	font-family: arial;
+	text-shadow: 0px 2px 1px white;
+}
+
+#consolaBody {
+	background: rgba(0,0,0,.7);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom:80px;
+}
+
+#consoleMessages {
+	color:white;
+	font-family:arial;
+	padding: 5px 0px 0px 10px;
+}
+
+.container {
+	padding: 30px 0;
+}
+
+
+@media (max-width: 600px) {
+  #mainBoxx {
+  	padding:51px 10px;
+  }
+  .spaces{
+	margin-left: 5px;
+  }
+
+  h1 {
+  	font-size:28px;
+  }
+
+  .container {
+  	padding: 30px 15px;
+  }
+
+}
+
